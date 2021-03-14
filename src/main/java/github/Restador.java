@@ -9,10 +9,10 @@ package github;
  *
  * @author carlo
  */
-public class NewMain {
+public class Restador {
 
-    public static void main(String[] args) {
-        System.out.println(Restador.restar(15f, 4f));
-        System.out.println(Sumador.sumar(16f, 4f));
+    public static float restar(float a, float b) {
+        return a - b;
     }
+
 }
